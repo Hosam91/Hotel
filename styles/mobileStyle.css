@@ -18,16 +18,14 @@
   .user {
     width: 50%;
   }
-  .page{
-    display: grid;
-    grid-template-columns: 100% ;
-    /* grid-template-rows: 100vh; */
+  .form-input  {
+    width: 100%;
 }
-.sidebar{
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
- 
+.date-input  {
+  width: 100%!important;
+}
+.date{
+ flex-direction: column;
 }
  
 
@@ -62,16 +60,14 @@
   .user-menu-dropdown {
     right: -40px;
   }
-  .page {
-    display: grid;
-    grid-template-columns: 100%;
-    /* grid-template-rows: 100vh; */
-  }
-  .sidebar {
-    padding: 2rem;
-    display: flex;
+  .form-input {
+     width: 100%;
+ }
+  .date-input  {
+     width: 100%!important;
+ }
+  .date{
     flex-direction: column;
   }
- 
 
 }
