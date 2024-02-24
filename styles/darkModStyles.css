@@ -1,0 +1,46 @@
+/* Dark Mode Styles */
+.dark-mode {
+    --bgColor: #121212;
+    --textColor: #ffffff;
+    --navbarBgColor: #1a1a1a;
+    --linkColor: #d2d8e4;
+    --mainColor: #0f9cee;
+    --secondColor: #999999;
+
+    /* Add more dark mode variables as needed */
+  }
+  
+  /* Example of applying dark mode styles */
+  .dark-mode body{
+    background-color: var(--bgColor);
+    color: var(--textColor);
+  }
+  .dark-mode h6,.dark-mode h5 {
+    color: var(--mainColor);
+  }
+  
+  .dark-mode nav {
+    background-color: var(--navbarBgColor);
+  }
+  
+  .dark-mode a {
+    color: var(--linkColor);
+  }
+
+  .dark-mode .on{
+      display: block;
+  }
+  .dark-mode .off{
+
+      display: none;
+  }
+  .dark-mode .user-menu-dropdown{
+    background-color: #121212;
+    
+  }
+  .dark-mode .user-menu-dropdown .menu-list li:hover{ 
+    background-color: var(--secondColor);
+  }
+   .dark-mode .taps li{
+    border: #1a1a1a  1px solid;
+   }
